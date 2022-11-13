@@ -1,23 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
-  
-int main()
+
+int main(int argc, char const *argv[])
 {
-    ifstream inFile("./test.txt");
-    ofstream outFile("./out.csv");
+    if(argc < 3)
+        cout << "Error: Too few arguments. Pass input and output file..." << endl ;
+    string inpfile = argv[1];
+    string outpfile = argv[2];
+    ifstream inFile(inpfile);
+    ofstream outFile(outpfile);
     string line;
     outFile << "PktNumber,Appearance,Direction,Type,Component,Edge,Filter,OriginalSize,LoggedSize" << '\n';
-    // char delim[] = ", ";
+
     string m[] = {"PktNumber","Appearance","Direction","Type","Component","Edge","Filter","OriginalSize","LoggedSize"};
     while (inFile)
     {
-       string token;// = strtok(line, delim);
+       string token;
        string t = "";
        int pos = 0;
        while(getline(inFile, line)){
         pos = 0;
         t = "";
-        // cout << token << endl;
         for(int i=0; i<9; i++){
             size_t fou = line.find(m[i], pos);
             if(fou != string::npos){
@@ -30,10 +33,7 @@ int main()
         }
         if(t != ",,, 0,,,,," && t != ",,,,,,,,")
             outFile << t << endl;
-        // token = strtok(NULL, delim);
        }
-
-    //    outFile << line << endl;
     }
 
     outFile.close();
