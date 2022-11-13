@@ -39,3 +39,4 @@ g++ -o extract.out extract.cpp
 ```
 ./extract.out <input file(txt)> <output file(csv)>
 ```
+Note: There is a sample input file ```test.txt``` and the output file ```out.csv``` generated from it.
