@@ -9997,4 +9997,3 @@
 	D8-24-BD-91-5D-40 > 18-1D-EA-03-97-01, ethertype IPv4 (0x0800), length 1304: 192.229.232.240.80 > 172.23.148.129.60512: Flags [.], seq 1291191710:1291192948, ack 1991828615, win 154, options [nop,nop,TS val 80801197 ecr 513320457], length 1238: HTTP
 [00]0004.4490::2022-11-09 18:35:04.512876900 [Microsoft-Windows-PktMon] PktGroupId 1903, PktNumber 1, Appearance 12, Direction Rx , Type Ethernet , Component 92, Edge 1, Filter 0, OriginalSize 1304, LoggedSize 128 
 	D8-24-BD-91-5D-40 > 18-1D-EA-03-97-01, ethertype IPv4 (0x0800), length 1304: 192.229.232.240.80 > 172.23.148.129.60512: Flags [P.], seq 1291192948:1291194186, ack 1991828615, win 154, options [nop,nop,TS val 80801197 ecr 513320457], length 1238: HTTP
-[00]0004.4490::2022-11-09 18:35:04.512877200 [Microsoft-Windows-PktMon] PktGroupId 1904, PktNumber 1, Appearance 12, Direction Rx , Type Ethernet , Component 92, Edge 1, Filter 0, OriginalSize 1304, LoggedSize 128 
