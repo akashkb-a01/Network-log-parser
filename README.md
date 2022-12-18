@@ -1,5 +1,5 @@
 # Network-log-parser
-## Genearte the Log files
+## Generate the Log files
 1. Open Windows PowerShell with administrator privileges.
 2. execute pktmon command
 3. ```pktmon start -c ```(this command will start the packet capture)
