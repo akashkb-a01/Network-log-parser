@@ -28,6 +28,8 @@ The parser extract the following nine fields from the txt file and writes it to 
 7. Filter
 8. OriginalSize
 9. LoggedSize
+10. Source
+11. Destination
 
 ## Execution
 To run the parser use the commands
