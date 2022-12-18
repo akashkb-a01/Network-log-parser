@@ -65,7 +65,7 @@ int main(int argc, char const *argv[])
                 fou = line.find("DA:", 0);
                 pos = fou + 2;
                 fou = line.find(" ", pos);
-                t += (line.substr(pos + 1, fou - pos - 1) + ",");
+                t += line.substr(pos + 1, fou - pos - 1);
             }
             else 
             t += ",";
